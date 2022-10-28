@@ -1,0 +1,31 @@
+ion-content {
+    --background: linear-gradient(#8cf4fa, #edb7d3);
+}
+
+ion-avatar {
+    width: 90px;
+    height: 90px;
+}
+
+.preview {
+    margin-top: 20px;
+    display: flex;
+    justify-content: left;
+    
+    ion-button{
+        justify-content: right;
+    }
+}
+
+.fallback {
+    width: 128px;
+    height: 128px;
+    border-radius: 50%;
+    background: #bfbfbf;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+}
+

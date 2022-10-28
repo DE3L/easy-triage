@@ -1,0 +1,46 @@
+<ion-header>
+  <ion-toolbar color="secondary">
+    <ion-title>Details</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+<div *ngIf="info">
+  <ion-list>
+
+    <ion-item>
+      <ion-label position="stacked"><p>First Name</p></ion-label>
+      <ion-input [(ngModel)]="info.firstname"></ion-input>
+
+      <ion-label position="stacked"><p>Last Name</p></ion-label>
+      <ion-input [(ngModel)]="info.lastname"></ion-input>
+
+      <ion-label position="stacked"><p>Address</p></ion-label>
+      <ion-input [(ngModel)]="info.address"></ion-input>
+
+      <ion-label position="stacked"><p>Birthday</p></ion-label>
+      <ion-input [(ngModel)]="info.birthdate"></ion-input>
+
+      <ion-label position="stacked"><p>Phone</p></ion-label>
+      <ion-input [(ngModel)]="info.phone"></ion-input>
+
+      <ion-label position="stacked"><p>SSS Number</p></ion-label>
+      <ion-input [(ngModel)]="info.sss"></ion-input>
+
+      <ion-label position="stacked"><p>TIN Number</p></ion-label>
+      <ion-input [(ngModel)]="info.tin"></ion-input>
+    </ion-item>
+
+
+  </ion-list>
+</div>
+
+
+
+
+  <ion-button expand="block" shape="round" color="success" (click)="updateInfo()">
+    <ion-icon name="save" slot="start"></ion-icon>
+    Save
+  </ion-button>
+
+</ion-content>

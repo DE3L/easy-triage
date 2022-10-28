@@ -1,0 +1,7 @@
+{
+  "name": "EasyTriage",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

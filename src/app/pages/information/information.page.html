@@ -1,0 +1,41 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-title>Your Information</ion-title>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/home/feed"></ion-back-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-list>
+  <ion-card> 
+    <ion-card-content routerLink="/personal">
+      <img src="/assets/images/audit.png">
+      <h2>Personal Information</h2>
+    </ion-card-content>   
+  </ion-card>
+
+  <ion-card> 
+    <ion-card-content>
+      <img src="/assets/images/medical-history.png">
+      <h2>Personal Health History</h2>
+    </ion-card-content>   
+  </ion-card>
+
+  <ion-card> 
+  <ion-card-content routerLink="/history">
+    <img src="/assets/images/medical-report.png">
+    <h2>Your Medical History</h2>
+  </ion-card-content>   
+</ion-card>
+
+<ion-card> 
+  <ion-card-content>
+    <img src="/assets/images/familyhistory.png">
+    <h2>Family Medical History</h2>
+  </ion-card-content>   
+</ion-card>
+  </ion-list>
+
+</ion-content>

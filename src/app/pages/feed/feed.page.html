@@ -1,0 +1,87 @@
+<ion-header class="ion-no-border">
+ <ion-toolbar color="secondary" no-border>
+  <ion-title>Home</ion-title>
+ </ion-toolbar>
+</ion-header>
+
+
+<ion-content [fullscreen]="true">
+  <div class="banner">
+    <img src="/assets/images/heart-bg.png" />
+    
+    <div class="caption ion-padding">
+      What would you <br>
+      like to do?
+    </div>
+
+    <div class="search">
+      <ion-item line="none" class="ion-no-padding" color="white">
+        <ion-icon slot="start" name="search-outline"></ion-icon>
+        <ion-input placeholder="Search"></ion-input>
+      </ion-item>
+    </div>
+  </div>
+
+  <div class="title">
+    <h2>File Management</h2>
+  </div>
+
+  <div class="file-slider">
+    <ion-slides [options]="{ slidesPerView: 'auto', zoom: false, grabCursor: true }" class="default-left-padding">
+      <ion-slide>
+        <ion-col class="ion-text-left">
+  
+            <ion-card> 
+              <ion-card-content>
+                <img src="/assets/images/favorite.png" routerLink="/information">
+                <h2>View information</h2>
+              </ion-card-content>   
+            </ion-card>
+
+        </ion-col>
+
+        <ion-col class="ion-text-left">
+  
+          <ion-card> 
+            <ion-card-content>
+              <img src="/assets/images/check-up.png" >
+              <h2>View Doctors' notes</h2>
+            </ion-card-content>   
+          </ion-card>  
+  
+      </ion-col>
+
+        <ion-col class="ion-text-left">
+  
+          <ion-card> 
+            <ion-card-content>
+              <img src="/assets/images/upload.png" >
+              <h2>Upload files</h2>
+            </ion-card-content>   
+          </ion-card>  
+
+      </ion-col>
+
+    <ion-col class="ion-text-left">
+
+      <ion-card> 
+        <ion-card-content>
+          <img src="/assets/images/viewfile.png" >
+          <h2>View Files</h2>
+        </ion-card-content>   
+      </ion-card>  
+
+  </ion-col>
+
+
+      </ion-slide>
+    </ion-slides>
+  </div>
+
+  <div class="title">
+    <h2>Health Tips</h2>
+    <p>See all</p>
+  </div>
+  
+  
+</ion-content>

@@ -1,0 +1,27 @@
+ion-slide{
+    padding-top: 50px;
+    padding-bottom: 10px;
+    display: block;
+
+    h2 {
+        font-size: 28px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: bold;
+        color: black;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 0px;
+    }
+    p {
+        font-size: 18px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: #2f3030;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    img {
+        width: 290px;
+        height: 290px;
+        padding-bottom: 5px;
+    }
+}
